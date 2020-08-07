@@ -1,0 +1,9 @@
+spring:
+ application:
+  name: omlc-data
+ datasource:
+  url: jdbc:mysql://:3306/OMLC?serverTimezone=UTC
+  username:
+  password:
+
+server.port: 8081

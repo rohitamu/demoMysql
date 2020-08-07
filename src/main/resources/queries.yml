@@ -1,0 +1,2 @@
+query:
+ omlc: select wcs_db_name, shipdate, eom_sent_count, wcs_ship_recv_count , wcs_ship_proc_count , wcs_ship_fail_count, wcs_cmplt_count, wcs_cmplt_fail_count, wcs_rtun_count, wcs_rtun_fail_count from omlc_shipment where DATE(shipdate)=:shipdate
